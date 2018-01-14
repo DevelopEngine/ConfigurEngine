@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>ConfigurEngine</PackageId>
+    <Authors>achapman</Authors>
+    <Description>The ConfigurEngine package provides a handful of simple extension methods to improve ASP.NET Core's default configuration infrastructure.</Description>
+    <Copyright>© Alistair Chapman 2017</Copyright>
+    <PackageTags>developengine;asp.net;core;startup;configuration</PackageTags>
+    <RepositoryUrl>https://github.com/developengine/ConfigurEngine</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/developengine/ConfigurEngine/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/developengine/ConfigurEngine</PackageProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.0.1"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="2.0.0" />
+    <PackageReference Include="NetEscapades.Configuration.Yaml" Version="1.3.0"/>
+  </ItemGroup>
+
+</Project>
