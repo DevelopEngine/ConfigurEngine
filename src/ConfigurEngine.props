@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup>
+        <Authors>achapman</Authors>
+        <Copyright>© Alistair Chapman 2017</Copyright>
+        <PackageTags>developengine;asp.net;core;startup;configuration;logging</PackageTags>
+        <RepositoryUrl>https://github.com/DevelopEngine/ConfigurEngine</RepositoryUrl>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/DevelopEngine/ConfigurEngine/master/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/DevelopEngine/ConfigurEngine</PackageProjectUrl>
+        <RootNamespace>ConfigurEngine</RootNamespace>
+    </PropertyGroup>
+</Project>
